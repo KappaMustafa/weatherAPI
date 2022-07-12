@@ -6,33 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="assets/style.css">
-</head>
+ </head>
 <body>
-    
     <div class="weather-dashboard">Weather Dashboard</div>
+    <div class="city-search">
+        <div> Search for a City: </div>
+        
+        <input type="text" placeholder="Search a city">
+        
+        <div>
+            <button class="search-btn">Search</button>
+        </div>
+
+    </div>
+   
+   
+   
+    <div class="container">
+
+        <aside class="city-list">
+            <button class="btn ASTN">Austin</button>
+            <button class="btn CHI">Chicago</button>
+            <button class="btn NY">New York</button>
+            <button class="btn ORL">Orlando</button>
+            <button class="btn SF">San Francisco</button>
+            <button class="btn STL">Seattle</button>
+            <button class="btn DEN">Denver</button>
+            <button class="btn ATL">Atlanta</button>
+
+        </aside>
+        <div class="city-info">
+            <h1 class="city">city</h1>
+            <h3 class="temp"></h3>
+            <h3 class="wind"></h3>
+            <h3 class="hum"></h3>
+            <h3 class="uv"></h3>
+        </div>
     
-    <div class="city-search">Search A City</div>
-    <aside class="city-list">
-        <button class="btn">Austin</button>
-        <button class="btn">Chicago</button>
-        <button class="btn">New York</button>
-        <button class="btn">Orlando</button>
-        <button class="btn">San Francisco</button>
-        <button class="btn">Seattle</button>
-        <button class="btn">Denver</button>
-        <button class="btn">Atlanta</button>
 
-    </aside>
     
-    <!-- <div class="city-info">
-        <h1></h1>
-        <h3></h3>
-        <h3></h3>
-        <h3></h3>
-        <h3></h3>
-    </div> -->
-    
-    <div class="five-day"></div>
+        <div class="five-day">
+            <h1>5-Day Forecast</h1>
+            <h1>5-Day Forecast</h1>
+            <h1>5-Day Forecast</h1>
+            <h1>5-Day Forecast</h1>
+            <h1>5-Day Forecast</h1>
+            <h1>5-Day Forecast</h1>
+        </div>
 
 
 
@@ -43,7 +63,8 @@
 
 
 
-
-    <script src="assets/js/script.js"></script>
+    </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

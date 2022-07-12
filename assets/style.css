@@ -1,3 +1,15 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.search-btn{
+    background-color: skyblue;
+    width: 15%;
+    height:40px ;
+}
+
 .weather-dashboard{
     display: flex;
     justify-content: center;
@@ -5,49 +17,82 @@
     background-image: linear-gradient(to right, yellow, red);
     font-size: 48px;
     padding: 10px;
-    margin: 50px;
+    margin: 20px;
     font-weight: bold;
     background-origin: padding-box;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    border-radius: 5px;
 }
 .btn{
     display: grid;
     width: 200px;
+    height: 100;
     max-height: 100%;
     grid-template-columns: auto;
     gap: 15px;
-    margin: 20px;
-    align-self: center;
+    margin: 20px 10px;
+    margin-left: 40px;
+    justify-content: center;
     padding: 5px 10px;
-    background-color: darkgray;
     color: black;
 
 }
 .city-search{
-
+    font-size: 30px;
+    font-weight: bold;
+}
+input{
+    width: 13.5%;
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px
 
 }
 .city-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 15%;
+    height: 100%;
     display: block;
-    max-width: 250px;
     justify-content: center;
     background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
     
     
 }
 .city-info{
     display: flex;
-    align-items: flex-end;
-    width: 800px;
-    max-width: 80%;
-    background-color: orange;
-    border-radius: 6px;
-    padding: 20px;
-    box-shadow: 0 0 15px 3px;
-
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+    width: 80%;
+    margin-left: 50px;
+    justify-content: right;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px ;
+    margin-top: -95px;
+    max-height: 250px;
 }
-
 .five-day{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: block;
+    width: 80%;
+    height: 100%;
+    margin-top: -200px;
+    margin-left: 338px;
+    justify-content: right;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px ;
 
 }
